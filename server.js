@@ -68,7 +68,7 @@ server.get('/user/:username',async (req,res)=> {
     res.status(200).send(data.user)
 })
 const port = process.env.PORT || 80
-server.listen(PORT,()=> {
+server.listen(port,()=> {
     console.info('server listening')
 })
 
