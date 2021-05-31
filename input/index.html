@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/input.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,8 +18,21 @@
               </label>
         
         <input type="text" name="username" id="input-user" placeholder="Enter your username"> 
-        <input type="submit" name="commit" id="sign" value="Sign in" class="btn btn-primary btn-block" data-disable-with="Signing in…" onclick="window.location.href='/index.html'">
+       
+        <input name="commit" id="sign" value="Sign in" class="btn btn-primary btn-block" data-disable-with="Signing in…" onclick="getInputValue()">
+    
     </div>
     </div>
+    <script> 
+        function getInputValue(){
+        // Selecting the input element and get its value 
+         var userInput = document.getElementById("input-user").value;
+        console.log('here')
+        // Displaying the value
+            
+         window.location ='/repo.html?u='+ userInput
+}
+
+    </script>
 </body>
 </html>

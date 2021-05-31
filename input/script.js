@@ -4,6 +4,7 @@ let nameContainer = document.getElementById("user-p");
 let fullNameContainer = document.getElementById("name-p");
 let bioContainer = document.getElementById("bioDesc");
 let imageUrl = document.getElementById("avatar");
+// let UserInput = document.getElementById('input-user').value
 // require('dotenv').config();
 
 
@@ -12,7 +13,6 @@ let imageUrl = document.getElementById("avatar");
 
 // console.log(process.env)
 // console.log(require('dotenv').config())
-
 
 
 
@@ -98,5 +98,6 @@ function appendNode(link, name,desc,stars,lang,fork,since){
     repoContainer.appendChild(makeNewDiv);
 }
 
-
- fetchUser('PejuSalami'); // call fetch
+var inputName = new URLSearchParams(location.search);
+console.log(inputName.get('u'))
+ fetchUser(inputName.get('u')); // call fetch

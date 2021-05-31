@@ -1,0 +1,150 @@
+.input-body{
+    background-color: #0d1117;
+    background-attachment: fixed;
+  }
+  .octicon-mark-github{
+    display: block;
+    margin: auto;
+    padding: 3%;
+    fill: #c9d1d9;
+  }
+  .input-container{
+    border: 0.1px solid #3e434c;
+      width: 22%;
+      height: 16vw;
+      display: block;
+      margin: auto;
+      /* padding: 2%; */
+      background-color: #161b22;
+      border-radius: 12px;
+  }
+  #input-user{
+    width: 68%;
+    display: block;
+    margin: auto;
+    background-color: #0d1117;
+    border-radius: 7px;
+    height: 24px;
+    padding: 2px 3px;
+    margin-top: 25%;
+    border: 0.1px solid #3e434c;
+    color: #c9d1d9;
+    font-size: 11px;
+  }
+  #input-user:focus{
+    outline-color: #388bfd;
+    /* border: 1px #388bfd; */
+    border-radius: 7px;
+  }
+  /* .btn-block {
+    display: block;
+    width: 100%;
+    text-align: center;
+  } */
+  #sign{
+    border: #238636;
+    background-color: #238636;
+    width: 69%;
+    display: block;
+    margin: auto;
+    height: 29px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #c9d1d9;
+    margin-top: 45px;
+    cursor: pointer;
+  }
+  /* .btn-primary {
+    color: var(--color-btn-primary-text);
+    background-color: var(--color-btn-primary-bg);
+    border-color: var(--color-btn-primary-border);
+    box-shadow: var(--color-btn-primary-shadow),var(--color-btn-primary-inset-shadow);
+  } */
+  /* .input-container:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .input-container:before {
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  }
+  .input-container:before {
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+  }
+  .input-container {
+    background: inherit;
+  }
+  
+  .input-container:before {
+    background: inherit;
+  } */
+  @media screen and (max-width: 600px) {
+
+    .input-body{
+      background-color: #0d1117;
+      background-attachment: fixed;
+    }
+    .octicon-mark-github{
+      display: block;
+      margin: auto;
+      padding: 3%;
+      fill: #c9d1d9;
+    }
+    .input-container {
+      border: 0.1px solid #3e434c;
+      width: 66%;
+      height: 220px;
+      /* display: block;
+      margin: auto; 
+      /* padding: 2%; */
+      background-color: #161b22;
+      border-radius: 12px;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+  }ut-user{
+      width: 68%;
+      display: block;
+      margin: auto;
+      background-color: #0d1117;
+      border-radius: 7px;
+      height: 24px;
+      padding: 2px 3px;
+      margin-top: 25%;
+      border: 0.1px solid #3e434c;
+      color: #c9d1d9;
+      font-size: 11px;
+    }
+    #input-user:focus{
+      outline-color: #388bfd;
+      /* border: 1px #388bfd; */
+      border-radius: 7px;
+    }
+    /* .btn-block {
+      display: block;
+      width: 100%;
+      text-align: center;
+    } */
+    #sign{
+      border: #238636;
+      background-color: #238636;
+      width: 69%;
+      display: block;
+      margin: auto;
+      height: 29px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #c9d1d9;
+      margin-top: 45px;
+      cursor: pointer;
+    }
+}

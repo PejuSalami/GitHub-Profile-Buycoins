@@ -12,10 +12,13 @@ const server = express();
 server.use(cookieparser());
 server.use(cors());
 // server.get('/',(req,res)=> {
-//     res.sendFile(path.resolve('dist/'));
-   
+//     res.sendFile(path.resolve('input'));  
 // });
-server.use(express.static(path.resolve('dist')));
+// server.get('/repos',(req,res)=> {
+//   res.sendFile(path.resolve('repos'));  
+// });
+server.use("/images", express.static(path.resolve('images')));
+server.use("/", express.static(path.resolve('input')));
 
 const apiQuery = username => '{' +
               'user(login: "'+username+'") {' +
