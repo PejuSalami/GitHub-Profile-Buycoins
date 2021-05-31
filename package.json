@@ -1,5 +1,5 @@
 {
-  "name": "github-profile",
+  "name": "github-profile-buycoins",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PejuSalami/GitHub-Profile.git"
+    "url": "git+https://github.com/PejuSalami/GitHub-Profile-Buycoins.git"
   },
   "author": "Peju olapejusal@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PejuSalami/GitHub-Profile/issues"
+    "url": "https://github.com/PejuSalami/GitHub-Profile-Buycoins/issues"
   },
-  "homepage": "https://github.com/PejuSalami/GitHub-Profile#readme",
+  "homepage": "https://github.com/PejuSalami/GitHub-Profile-Buycoins#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "cookie-parser": "^1.4.5",
